@@ -6,8 +6,8 @@
 
 [![Build Status](https://travis-ci.com/darkwebdesign/[repository-name].svg?branch=master)](https://travis-ci.com/darkwebdesign/[repository-name])
 [![Coverage Status](https://codecov.io/gh/darkwebdesign/[repository-name]/branch/master/graph/badge.svg)](https://codecov.io/gh/darkwebdesign/[repository-name])
-[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.1-blue.svg)](https://php.net/)
-[![Minimum Symfony Version](https://img.shields.io/badge/symfony-%3E%3D%204.4-green.svg)](https://symfony.com/)
+[![Minimum PHP Version](https://img.shields.io/badge/php-7.1%2B-blue)](https://php.net/)
+[![Minimum Symfony Version](https://img.shields.io/badge/symfony-4.4%2B-green)](https://symfony.com/)
 
 [Description].
 
