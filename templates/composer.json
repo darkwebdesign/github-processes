@@ -1,0 +1,11 @@
+{
+  "name": "darkwebdesign/<repository-name>",
+  "type": "library",
+  "description": "<Repository Name>",
+  "keywords": [],
+  "homepage": "http://www.darkwebdesign.nl/",
+  "license": "MIT",
+  "authors": [
+    {"name": "Raymond Schouten"}
+  ]
+}
