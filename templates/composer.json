@@ -1,7 +1,7 @@
 {
   "name": "darkwebdesign/[repository-name]",
   "type": "library",
-  "description": "<Repository Name>",
+  "description": "[Description]",
   "keywords": [],
   "homepage": "http://www.darkwebdesign.nl/",
   "license": "MIT",

@@ -1,0 +1,35 @@
+remote_theme: just-the-docs/just-the-docs
+
+title: [Repository Name]
+description: [Description]
+
+aux_links:
+  Visit repository on GitHub: https://github.com/darkwebdesign/[repository-name]
+
+callouts:
+  info:
+    title: Info
+    color: blue
+  warning:
+    title: Warning
+    color: yellow
+  danger:
+    title: Danger
+    color: red
+  grey-lt:
+    color: grey-lt
+  grey-dk:
+    color: grey-dk
+  purple:
+    color: purple
+  blue:
+    color: blue
+  green:
+    color: green
+  yellow:
+    color: yellow
+  red:
+    color: red
+
+plugins:
+  - jekyll-redirect-from
