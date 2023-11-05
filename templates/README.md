@@ -11,7 +11,7 @@
 
 [Description].
 
-Learn more about it in its [documentation](https://github.com/darkwebdesign/[repository-name]/wiki).
+Learn more about it in its [documentation](https://darkwebdesign.github.io/[repository-name]).
 
 ### Features
 
