@@ -9,10 +9,6 @@ env:
     - CC_TEST_REPORTER_ID=<token>
 
 php:
-  - 7.1
-  - 7.2
-  - 7.3
-  - 7.4
   - 8.0
   - 8.1
   - 8.2
@@ -29,7 +25,9 @@ before_script:
   - ./cc-test-reporter before-build
 
 script:
-  - XDEBUG_MODE=coverage vendor/bin/phpunit
+  - XDEBUG_MODE=coverage vendor/bin/phpunit --coverage-text --coverage-clover build/logs/clover.xml
+  - vendor/bin/rector process --dry-run --no-progress-bar
+  - vendor/bin/phpstan analyze --no-progress
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) -f build/logs/clover.xml
